@@ -1,0 +1,80 @@
+#tabs {
+   float:left;
+   background-color: #2e2c38;
+   color: white;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+ul.tab {
+    clear:left;
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+    background-color: transparent;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #F8ECC2;
+    color: black;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: lighter(60%);
+}
+.copy-section {
+    font-family: 'Nunito', sans-serif;
+    padding: 2em 0;
+    background: #2e2c38;
+    text-align: center;
+}
+.copy-section p {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.copy-section a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 930px) {
+
+}
