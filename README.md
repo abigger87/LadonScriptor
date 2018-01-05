@@ -12,4 +12,7 @@ https://abigger87.github.io/LadonScriptor/
   * Number Facts : http://numbersapi.com
   * Summerize websites : http://smmry.com/api
   * Create 3D/VR : https://www.sketchfab.com/developers
+  * Texas Holdem : https://www.mashape.com/neurone/Texas-Holdem
+  * Twilio Send SMS : http://www.twilio.com
+  * Web Crawl Data : http://commoncrawl.org/
   * 
