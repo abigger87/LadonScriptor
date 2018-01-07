@@ -3,4 +3,6 @@ function init() {
   // window.MgApi.SetCredentials('username', 'password'); This is optional, if the user of your app logs in.
   // Most functions can be called anonymously, without credentials.
   window.MgApi.Generators_Search('frog', 0, 24);
+  window.MgApi.Generators_Select_ByPopular();
 }
+
